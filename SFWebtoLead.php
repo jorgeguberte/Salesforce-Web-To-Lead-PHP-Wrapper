@@ -2,14 +2,14 @@
 /**
  * Classe que insere um novo 'lead' no Salesforce via WebToLead. 
  * 
- * @author Jorge Guberte <jorge.guberte@egypteam.com>
+ * @author Jorge Guberte <shout@jorgeguberte.com>
  * @version 1.0
  */
 
 class SFWebtoLead{
 	/**
 	 * 
-	 * Classe única.
+	 * Classe ï¿½nica.
 	 * @var string $_oid
 	 * @var string
 	 * 
@@ -19,7 +19,7 @@ class SFWebtoLead{
 
 	
 	function SFWebtoLead(){		
-		//Configuração
+		//Configuraï¿½ï¿½o
 		$this->_oid = ''; // OID do Salesforce
 		$this->_SFServletURL = "http://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8";
 		
